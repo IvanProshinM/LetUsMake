@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'gotham_medium';
+    src:url("/fonts/gotham/gotham_medium.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'gotham_bold';
+    src:url("/fonts/gotham/gotham_bold.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'proxima_nova_regular';
+    src:url("/fonts/proximanova/proximanova_regular.ttf");
+    font-style: normal;
+    font-weight: bold;
+}

@@ -1,0 +1,485 @@
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main_part {
+
+}
+
+#main_part__logo-block {
+    height: 102px;
+}
+
+#logo-block__logo-position {
+    float: left;
+    margin-top: 41px;
+    margin-left: 150px;
+}
+
+#logo-position__menu-links {
+    float: right;
+    margin-top: 45px;
+    margin-right: 150px;
+    font-family: "gotham_medium", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+}
+
+#menu-links__link-work {
+    margin-right: 99px;
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+#menu-links__link-team {
+    margin-right: 90px;
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+#menu-links__link-contact {
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+#main_part__easier-life-block {
+
+}
+
+#easier-life-block__background {
+    height: 500px;
+
+}
+
+#background__sky-background {
+    display: block;
+    position: relative;
+}
+
+#background__sky-background:before {
+    content: '';
+    background-image: url("/img/sky_background.png");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+}
+
+#sky-background {
+
+}
+
+#sky-text__easier-life-title {
+    position: absolute;
+    z-index: 2;
+    margin-top: 162px;
+    margin-left: 393px;
+    text-align: center;
+    font-family: "gotham_bold", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 750;
+    line-height: 50px;
+    color: #303030;
+}
+
+#sky-text__easier-life-text {
+    position: absolute;
+    z-index: 2;
+    font-family: "Georgia", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 283px;
+    margin-left: 353px;
+    color: #5a5a5a;
+}
+
+#sky-text__move-down-button {
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 382px;
+    margin-left: 574px;
+
+}
+
+#move_down_button__arrow {
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+#main_part__featured-block {
+    margin-top: 46px;
+}
+
+.text-block {
+    text-align: center;
+}
+
+.text-block__title {
+    font-family: "gotham_bold", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.text-block__content {
+    font-family: "proxima_nova_regular", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 26px;
+    text-align: center;
+}
+
+.text-block__dividing-line {
+    text-align: center;
+    margin-top: 14px;
+}
+
+#dividing-line__featured-work {
+    border: none;
+    border-top: 3px solid #333;
+    width: 240px;
+}
+
+#featured-block__thumbnails {
+    padding-top: 46px;
+    margin-left: 150px;
+}
+
+#thumbnails__position-pilter {
+    float: left;
+}
+
+#thumbnails__position-touchmania {
+    float: left;
+    margin-left: 60px;
+}
+
+#thumbnails__position-locate {
+    float: left;
+    margin-left: 60px;
+}
+
+#thumbnails__position-umberapp {
+    float: left;
+    margin-top: 58px;
+
+}
+
+#thumbnails__position-hipo {
+    float: left;
+    margin-left: 60px;
+    margin-top: 58px;
+}
+
+#thumbnails__position-pardio {
+    float: left;
+    margin-left: 60px;
+    margin-top: 58px;
+}
+
+#thumbnails__position-banadediki {
+    float: left;
+    margin-top: 58px;
+
+}
+
+#thumbnails__position-corner {
+    float: left;
+    margin-left: 60px;
+    margin-top: 58px;;
+}
+
+#thumbnails__position-arabuk {
+    float: left;
+    margin-left: 60px;
+    margin-top: 58px;
+}
+
+#main_part__team-block {
+    margin-top: 699px;
+    background: #f3f3f3;
+    border: 1px solid #e5e5e5;
+    height: 532px;
+}
+
+#team-block__background {
+    margin-top: 45px;
+}
+
+#dividing-line__team {
+    width: 180px;
+    border: none;
+    border-top: 3px solid #333;
+}
+
+.profiles__window {
+    position: relative;
+    float: left;
+    text-align: center;
+    background: white;
+    width: 210px;
+    height: 210px;
+    margin-left: 17px;
+    border: 1px solid #e1e1e1;
+
+
+}
+
+.profile_photo {
+    margin-top: 17px;
+}
+
+.profile__name {
+    font-family: "gotham_bold", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.profile__position {
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 6px;
+
+}
+
+.team-block__profiles {
+    margin-left: 133px;
+    margin-top: 47px;
+}
+
+.profile__twitter-icon {
+    display: block;
+    float: left;
+
+}
+
+.profile__twitter-icon:before {
+    content: '';
+    background-image: url("/img/twitter_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 17px;
+    height: 12px;
+}
+
+.profile__linkedin-icon {
+    display: block;
+    float: left;
+}
+
+.profile__linkedin-icon:before {
+    content: '';
+    background-image: url("/img/linkedin_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 14px;
+}
+
+.profile__dribell-icon {
+    display: block;
+    float: left;
+}
+
+.profile__dribell-icon {
+    content: '';
+    background-image: url("/img/dribbel_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+}
+
+.profile__skype-icon {
+    display: block;
+    float: left;
+}
+
+.profile__skype-icon:before {
+    content: '';
+    background-image: url("/img/skype logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+
+#profile__twitter-icon_first {
+    margin-left: 72px;
+    margin-top: 23px;
+}
+
+#profile__linkedin-icon_first {
+    margin-left: 37px;
+    margin-top: 23px;
+}
+
+#profile__twitter-icon_second {
+    margin-top: 23px;
+    margin-left: 59px;
+}
+
+#profile__dribell-icon_second {
+    margin-top: 23px;
+    margin-left: 97px;
+}
+
+#profile__linkedin-icon-second {
+    margin-top: 22px;
+    margin-left: 75px;
+}
+
+#profile__skype-icon_third {
+    margin-left: 76px;
+    margin-top: 22px;
+}
+
+#profile__linkedin-icon_third {
+    margin-left: 40px;
+    margin-top: 23px;
+
+}
+
+#profile__skype-icon_fourth {
+    margin-left: 78px;
+    margin-top: 22px;
+}
+
+#profile__linkedin-icon_fourth {
+    margin-left: 39px;
+    margin-top: 23px;
+}
+
+#main_part__contact {
+height: 565px;
+}
+
+#contact__title {
+    margin-top: 45px;
+}
+
+#dividing-line__contact {
+    width: 180px;
+    border: none;
+    border-top: 3px solid #333;
+}
+
+#contact__map {
+    float: left;
+
+}
+
+.contact__text {
+    font-family: "proxima_nova_regular", sans-serif;
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+.contact__text_map {
+    margin-left: 150px;
+    margin-top: 32px;
+}
+
+#map__img {
+    margin-left: 147px;
+    margin-top: 22px;
+}
+
+#contact__email_block {
+    float: left;
+}
+
+#contact__message_block {
+    float: left;
+}
+
+#contact__text_message {
+    margin-top: 33px;
+    margin-left: 34px;
+}
+
+.contact__input_message {
+    background: #f2f2f2;
+    font-family: "georgia", sans-serif;
+    font-style: italic;
+}
+
+.contact__input_message_position {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.contact__input_email_position {
+    margin-top: 5px;
+    margin-left: 33px;
+}
+
+#send_button_field {
+    float: right;
+    margin-right: 150px;
+    margin-top: 7px;
+
+}
+
+#send_button {
+    width: 205px;
+    height: 60px;
+    background: #6995a9;
+    font-family: "gotham_bold", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#send_icon {
+    display: block;
+    float: left;
+}
+
+#send_icon:before {
+    content: '';
+    background-image: url("/img/composite_path.png");
+    background-size: cover;
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    z-index: 2;
+}
+
+#adress {
+
+}
+
+footer {
+    background-color: #4f4f4f;
+    height: 80px;
+}
+
+#adress-text {
+    color: #666666;
+    margin-top: 1330px;
+}
+
+p span {
+    color: #7d7d7d;
+}
